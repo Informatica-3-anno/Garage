@@ -30,7 +30,7 @@ public class Garage {
 	//
 	public int cercaVettura(String targa) {
 		for (int i=0; i<posteggi.length; i++) {
-			if (posteggi[i]!=null && posteggi[i].targa.equalsIgnoreCase(targa)) {
+			if (posteggi[i]!=null && posteggi[i].getTarga().equalsIgnoreCase(targa)) {
 				return i;
 			}
 		}
